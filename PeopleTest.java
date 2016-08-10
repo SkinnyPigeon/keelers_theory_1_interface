@@ -44,5 +44,10 @@ public class PeopleTest {
     assertEquals( "I'm Bender", bender.bender() );
   }
 
+  @Test
+  public void profIsBender() {
+    assertEquals( "I'm Bender", professor.bender() );
+  }
+
 
 }
